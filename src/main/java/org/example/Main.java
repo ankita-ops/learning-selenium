@@ -36,7 +36,7 @@ public class Main {
         link2016.click();
         WebElement element =driver.findElement(By.linkText("Fall Selenium Conf, Save the Date & Call for Speakers!"));
         element.click();
-        
+
         driver.quit();
         driver.close();
 
